@@ -1,0 +1,21 @@
+
+#include <stdio.h>
+
+int main() {
+int you, date;
+    printf("enter the rating of you and your date ");
+    scanf("%d%d",&you,&date);
+    if( you<=2|| date<=2)
+    {
+      printf("0");
+    }
+    else if( you >=8|| date>=2)
+    {
+    printf("2");
+}
+else
+{
+ printf("1");
+      }
+    return 0;
+} 
